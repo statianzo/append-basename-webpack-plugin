@@ -1,6 +1,6 @@
 # append-basename-webpack-plugin
 
-[![Build Status](https://travis-ci.org/statianzo/append-basename-webpack-plugin?branch=master)](https://travis-ci.org/statianzo/append-basename-webpack-plugin)
+[![Build Status](https://travis-ci.org/statianzo/append-basename-webpack-plugin.svg?branch=master)](https://travis-ci.org/statianzo/append-basename-webpack-plugin)
 
 Append to basenames before resolution in webpack
 
