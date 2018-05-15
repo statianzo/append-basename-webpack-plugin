@@ -5,6 +5,9 @@
   "main": "index.js",
   "author": "statianzo",
   "license": "ISC",
+  "scripts": {
+    "test": "jest"
+  },
   "files": [
     "index.js"
   ],
