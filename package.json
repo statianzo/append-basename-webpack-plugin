@@ -1,6 +1,6 @@
 {
   "name": "append-basename-webpack-plugin",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Append to basename in webpack resolution",
   "main": "index.js",
   "author": "statianzo",
