@@ -21,7 +21,7 @@ const appendToRequest = request => append =>
     relativePath: appendToBasename(request.relativePath, append),
   });
 
-class BasenameAppendResolverPlugin {
+class AppendBasenameWebpackPlugin {
   constructor(options) {
     this.source = options.source || 'described-relative';
     this.target = options.target || 'raw-file';
@@ -66,10 +66,10 @@ class BasenameAppendResolverPlugin {
     resolver
       .getHook(this.source)
       .tapAsync(
-        'BasenameAppendResolverPlugin',
+        'AppendBasenameWebpackPlugin',
         this.onTap.bind(this, target, resolver)
       );
   }
 }
 
-module.exports = BasenameAppendResolverPlugin;
+module.exports = AppendBasenameWebpackPlugin;

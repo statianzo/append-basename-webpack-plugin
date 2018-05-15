@@ -2,9 +2,12 @@
   "name": "append-basename-webpack-plugin",
   "version": "0.1.0",
   "description": "Append to basename in webpack resolution",
-  "main": "lib/index.js",
+  "main": "index.js",
   "author": "statianzo",
   "license": "ISC",
+  "files": [
+    "index.js"
+  ],
   "devDependencies": {
     "jest": "^22.4.3"
   },
